@@ -47,12 +47,10 @@
 						"GBR"
 					],
 					"supportedBuyProviders": [
-						"moonpay",
-						"paybis"
+						"moonpay"
 					],
 					"supportedSellProviders": [
-						"moonpay",
-						"paybis"
+						"moonpay"
 					]
 				},
 				"crossChainSwap": {
@@ -68,12 +66,10 @@
 					"enabled": true,
 					"unallowedCountries": [],
 					"supportedBuyProviders": [
-						"moonpay",
-						"paybis"
+						"moonpay"
 					],
 					"supportedSellProviders": [
-						"moonpay",
-						"paybis"
+						"moonpay"
 					]
 				},
 				"crossChainSwap": {
