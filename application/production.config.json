@@ -47,9 +47,11 @@
 						"GBR"
 					],
 					"supportedBuyProviders": [
+						"transak",
 						"moonpay"
 					],
 					"supportedSellProviders": [
+						"transak",
 						"moonpay"
 					]
 				},
@@ -66,9 +68,11 @@
 					"enabled": true,
 					"unallowedCountries": [],
 					"supportedBuyProviders": [
+						"transak",
 						"moonpay"
 					],
 					"supportedSellProviders": [
+						"transak",
 						"moonpay"
 					]
 				},
