@@ -44,7 +44,8 @@
 				"buysell": {
 					"enabled": true,
 					"unallowedCountries": [
-						"GBR"
+						"GBR",
+						"LIE"
 					],
 					"supportedBuyProviders": [
 						"transak",
@@ -62,7 +63,9 @@
 				"crossChainSwap": {
 					"enabled": true,
 					"swpEnabled": true,
-					"unallowedCountries": [],
+					"unallowedCountries": [
+						"LIE"
+					],
 					"swpCountries": [],
 					"swapCountries": []
 				}
@@ -70,7 +73,9 @@
 			"android": {
 				"buysell": {
 					"enabled": true,
-					"unallowedCountries": [],
+					"unallowedCountries": [
+						"LIE"
+					],
 					"supportedBuyProviders": [
 						"transak",
 						"paybis",
@@ -87,7 +92,9 @@
 				"crossChainSwap": {
 					"enabled": true,
 					"swpEnabled": true,
-					"unallowedCountries": [],
+					"unallowedCountries": [
+						"LIE"
+					],
 					"swpCountries": [],
 					"swapCountries": []
 				}
