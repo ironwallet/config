@@ -44,7 +44,8 @@
 				"buysell": {
 					"enabled": true,
 					"unallowedCountries": [
-						"GBR"
+						"GBR",
+						"LIE"
 					],
 					"supportedBuyProviders": [
 						"transak",
@@ -62,7 +63,9 @@
 				"crossChainSwap": {
 					"enabled": true,
 					"swpEnabled": true,
-					"unallowedCountries": [],
+					"unallowedCountries": [
+						"LIE"
+					],
 					"swpCountries": [],
 					"swapCountries": []
 				}
@@ -70,7 +73,9 @@
 			"android": {
 				"buysell": {
 					"enabled": true,
-					"unallowedCountries": [],
+					"unallowedCountries": [
+						"LIE"
+					],
 					"supportedBuyProviders": [
 						"transak",
 						"paybis",
@@ -87,7 +92,9 @@
 				"crossChainSwap": {
 					"enabled": true,
 					"swpEnabled": true,
-					"unallowedCountries": [],
+					"unallowedCountries": [
+						"LIE"
+					],
 					"swpCountries": [],
 					"swapCountries": []
 				}
@@ -135,6 +142,14 @@
 					{
 						"network": "bitcoin",
 						"minAppVersion": "1.13.0"
+					},
+					{
+						"network": "dogecoin",
+						"minAppVersion": "1.14.0"
+					},
+					{
+						"network": "litecoin",
+						"minAppVersion": "1.14.0"
 					}
 				]
 			},
@@ -151,9 +166,7 @@
 					"optimism",
 					"base",
 					"ton",
-					"xrp",
-					"dogecoin",
-					"litecoin"
+					"xrp"
 				]
 			}
 		}
