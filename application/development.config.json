@@ -8,6 +8,7 @@
 		"enableIwbTransactionHistory": true,
 		"enableIwbBalances": true,
 		"enableSwap": true,
+		"enableNotificationCenter": true,
 		"rateAppReminderInterval": 20,
 		"stableVersion": {
 			"major": 1,
