@@ -6,6 +6,7 @@
 		"turnOnDAppsOnIos": false,
 		"turnOnDAppsOnAndroid": false,
 		"enableSwap": true,
+		"enableNotificationCenter": true,
 		"rateAppReminderInterval": 2592000,
 		"stableVersion": {
 			"major": 1,
